@@ -9,3 +9,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+       
+    margin-top: 100px;    
+
+}
+.container{
+    
+   
+}
+ul{ 
+    padding: 0;
+    
+    
+}
+li {
+    border-radius: 20px;
+    border: 1px solid rgb(115, 115, 131);    
+    list-style: none;
+    padding: 5px;   
+    text-align: center; 
+
+}
+input{
+    border-radius: 20px;
+    border: 1px solid rgb(115, 115, 131);    
+    list-style: none;
+    padding: 5px;   
+    text-align: center; 
+}
+i{
+    padding-left: 50px;
+    
+}
