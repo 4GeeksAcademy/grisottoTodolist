@@ -9,36 +9,79 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-body{
-       
-    margin-top: 100px;    
+/* Apply a clean background and center everything */
+/* Center the todo list container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
 
+/* Styling for the main todo box */
+.todo-container {
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 400px;
 }
-.container{
-    
-   
+
+/* Input field styling */
+input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
 }
-ul{ 
+
+/* Add button */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for each todo item */
+ul {
     padding: 0;
-    
-    
+    margin: 0;
 }
-li {
-    border-radius: 20px;
-    border: 1px solid rgb(115, 115, 131);    
-    list-style: none;
-    padding: 5px;   
-    text-align: center; 
 
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    color: #333;
 }
-input{
-    border-radius: 20px;
-    border: 1px solid rgb(115, 115, 131);    
-    list-style: none;
-    padding: 5px;   
-    text-align: center; 
-}
-i{
-    padding-left: 50px;
+
+
+.trash-icon {
     
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+
+/* Footer */
+.todo-footer {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
 }
