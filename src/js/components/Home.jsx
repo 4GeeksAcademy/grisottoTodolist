@@ -17,7 +17,7 @@ const Home = () => {
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-            <h1 className="text-4xl font-light text-gray-400 mb-6">todos</h1>
+            <h1 className="text-4xl font-light text-gray-400 mb-6">ToDos</h1>
             <div className="bg-white shadow-md rounded-md w-96">
                 <div className="flex gap-2 p-4 border-b">
                     <input 
@@ -29,9 +29,9 @@ const Home = () => {
                     />
                     <button 
                         onClick={addTask} 
-                        className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition"
+                        className="bg-blue-500 text-white font bold px-4 py-2 rounded-md hover:bg-blue-600 transition"
                     >
-                        Add
+                        &hearts;
                     </button>
                 </div>
 
