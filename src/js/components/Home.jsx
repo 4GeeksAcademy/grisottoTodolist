@@ -7,7 +7,7 @@ const Home = () => {
     const addTask = () => {
         if (entry.trim() !== "") {
             setTasks([...tasks, entry]);
-            setEntry(""); // Clear input field after adding
+            setEntry(""); 
         }
     };
 
