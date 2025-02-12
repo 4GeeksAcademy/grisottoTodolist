@@ -46,7 +46,7 @@ const Home = () => {
                         </li>
                     ))}
                 </ul>
-                <div className="p-4 text-gray-500 border-t text-sm"> {tasks.length == 0 ? 'No' : tasks.length} item{tasks.length > 1 ? 's' : ''} left</div>
+                <div className="p-4 text-gray-500 border-t text-sm"> {tasks.length == 0 ? 'No' : tasks.length} item{tasks.length !== 1 ? 's' : ''} left</div>
             </div>
         </div>
     );
